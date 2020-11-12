@@ -21,7 +21,7 @@
 #### Aboard Vs Fatalities
 The box plots and distribution plots for Aboard and Fatalities columns conveyed that the maximum number of fatalities and people boarding the flight for each crash are in the range 0-100, and those which are more than 100 in number for any accident in the data set are rare.
 
-![](Images/Dist & Box Plot for Fatalities.png)
+![](https://github.com/sandeepreddyb253/CMPE255-AirplaneCrash/blob/main/Images/Dist%20%26%20Box%20Plot%20for%20Fatalities.png)
 #### Fatalities Vs Accidents
 The scatterplot is plotted for the each operator's accidents count and fatalities from all of its accidents, the observation obtained is as follows:
 Maximum number of operators are crashed in the range of 0 - 50 accidents where the maximum fatalities for an accident are in the range 0 - 1000
