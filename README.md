@@ -4,7 +4,7 @@
  Statistics of airplane crash data 
  
 ### 2) What data you’ll use and where you’ll get it?
- https://datasetsearch.research.google.com/search?query=Airplane%20Crashes&docid=GUhYyjK%2B7677nVD6AAAAAA%3D%3D
+ https://data.world/data-society/airplane-crashes
 
  This dataset contains a full history of airplane crashes from 1908 to present which resulted in deaths throughout the world from civil, military, aviation, etc. 
  
@@ -18,7 +18,7 @@
 
 
 
-### Preliminary Analysis Section
+### 4)Preliminary Analysis Section
 
 #### Aboard Vs Fatalities
 The box plots and distribution plots for Aboard and Fatalities columns conveyed that the maximum number of fatalities and people boarding the flight for each crash are in the range 0-100, and those which are more than 100 in number for any accident in the data set are rare.
@@ -40,15 +40,15 @@ Bar graph is plotted for fatalities on each accident for every airline. The fata
 
 
 #### Accident Trends
-Accidents gradually increased over 1908 to 1970 and gradual decrease in flight accidents till today. Comparing the fatalities and accidents, the interesting scenario which was observed is the ratio of fatalities with respect to accidents is equally distributed in both the graphs except during the year 1940 - 1960, the number of fatalities are less compared to the number of accidents in that period of time.
+Accidents gradually increased over 1908 to 1970 and there is gradual decrease in flight accidents till today. while comparing the fatalities and accidents, the interesting scenario which was observed in the below graphs is the ratio of fatalities to accidents is equally distributed in both the graphs except during the time period 1940 - 1960, the number of fatalities are less compared to the number of accidents in that period of time.
 
 ![](https://github.com/sandeepreddyb253/CMPE255-AirplaneCrash/blob/main/Images/Accidents%20per%20Year.png)
 
 ![](https://github.com/sandeepreddyb253/CMPE255-AirplaneCrash/blob/main/Images/Fatalities%20per%20Year.png)
 
 
-Also, Accidents numbers are high in December and January compared to other months and during the weekday’s numbers are high compared to weekends. Mostly occurred on Tuesday and Thursday.
-The below graph represents that the very peak time of accidents is during 3PM and other times are comparatively very low. Also, highest trends are for Aeroflot and US Military operators.
+Also, the number of accidents are high in December and January compared to other months and during the weekday’s numbers are high compared to weekends, specifically on Tuesday and Thursday.
+The below graph represents that the very peak time of accidents, which is during 3PM and other times are comparatively very low. Also, highest trends are for Aeroflot and US Military operators.
 
 ![](https://github.com/sandeepreddyb253/CMPE255-AirplaneCrash/blob/main/Images/Accidents%20by%20Month%2C%20Day%20%26%20Hour.png)
 
@@ -56,7 +56,7 @@ The flight trends for different operators can be seen below. The max and highest
 
 ![](https://github.com/sandeepreddyb253/CMPE255-AirplaneCrash/blob/main/Images/Fatality%2C%20Accident%20trend%20by%20Operator.png)
 
-The survival rate is drastically improved compare to 1908 and 2020 as seen below.
+The survival rate is drastically improved compared to 1908 and 2020 as seen below.
 
 ![](https://github.com/sandeepreddyb253/CMPE255-AirplaneCrash/blob/main/Images/Average%20survival%20rate%20per%20year.png)
 
