@@ -17,14 +17,15 @@
 5) Find any interesting trends/behaviors that you encounter when you analyze the dataset. 
 
 
-##Preliminary analysis section
+### Preliminary analysis section
 #### Aboard Vs Fatalities
 The box plots and distribution plots for Aboard and Fatalities columns conveyed that the maximum number of fatalities and people boarding the flight for each crash are in the range 0-100, and those which are more than 100 in number for any accident in the data set are rare.
 
-
+![](Images/Dist & Box Plot for Fatalities.png)
 #### Fatalities Vs Accidents
 The scatterplot is plotted for the each operator's accidents count and fatalities from all of its accidents, the observation obtained is as follows:
 Maximum number of operators are crashed in the range of 0 - 50 accidents where the maximum fatalities for an accident are in the range 0 - 1000
+
 
 #### Bar Graph for fatalities per each accident for airlines with >10 accidents 
 Bar graph is plotted for fatalities on each accident for every airline. The fatalities observed for each accident are in the range of 0 - 60 and When the number of accidents are considered for every airline, the Aeroflot and Military - U.S. Air Force are having the highest number of accidents, which is >175.
@@ -52,8 +53,7 @@ The topflight crashes have happened by operator Aeroflot and in Location Sao Pau
 5: Taking off without clearance from ATC. ATC or pilots’ error.
 
 
-
-#### Two Methods:
+### Two Methods
 
 1.	K-Means Clustering: Clustering will be applied for Summary feature using TF-IDF numerical statistic to classify groups of crashes.
 2.	Random Forest: Dimension reduction will be performed, and top 5 features will be extracted, and these attributes will be considered to perform prediction for higher accuracy.
