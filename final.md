@@ -76,6 +76,7 @@ Hierarchical clustering is applied on the features survival rate, people aboard 
 ![](https://github.com/sandeepreddyb253/CMPE255-AirplaneCrash/blob/main/Images/kmeans.PNG)
 
 ##### DBSCAN Clustering
+DBSCAN clustering is applied on the features survival rate. From the results, it is evident that survival rate has been increasing over the time as the flights are safer to trave now.
 
 ![](https://github.com/sandeepreddyb253/CMPE255-AirplaneCrash/blob/main/Images/dbscan.PNG)
 
